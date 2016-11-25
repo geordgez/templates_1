@@ -1,0 +1,47 @@
+\documentclass[10pt]{article}
+\usepackage[margin=1in]{geometry}
+\geometry{letterpaper}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{graphicx}
+\usepackage{amsfonts}
+\usepackage{mathtools}
+\usepackage{fancyhdr}
+\usepackage{lastpage}
+\usepackage{setspace}
+% \usepackage{hyperref}
+% \usepackage[superscript]{cite}
+% \usepackage{listings}
+% http://arxmliv.kwarc.info/package_usage.php
+
+\newcommand{\Author}{My name}
+\newcommand{\Class}{My class}
+\newcommand{\Title}{My title}
+\newcommand{\DDate}{Due Date}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%% HEADER/FOOTER %%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%
+\pagestyle{fancy}
+\lhead{\Author}
+\chead{\Class. \Title.}
+\rhead{\DDate}
+\lfoot{}
+% will sometimes throw nonmalignant error
+\cfoot{\thepage\ of \pageref{LastPage}}
+\rfoot{}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{document}
+\title{\Class. \Title.}
+\date{\DDate}
+\author{\Author}
+\maketitle
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{}
+
+\subsection{}
+
+\end{document}
+
